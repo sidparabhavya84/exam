@@ -1,0 +1,26 @@
+:root {
+    --height: 780px;
+}
+.images {
+    background-image: url('../../../public/img/banner1.jpg');
+    height: var(--height);
+    background-repeat: no-repeat;
+}
+
+.image {
+    background-image: url('../../../public//img/banner2.jpg');
+    height: var(--height);
+    background-repeat: no-repeat;
+    
+}
+
+.img {
+    background-image: url('../../../public/img/banner3.jpg');
+    height: var(--height);
+    background-repeat: no-repeat;
+
+}
+
+.carousel-indicators {
+    display: none;
+}
